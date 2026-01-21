@@ -27,6 +27,7 @@
 }
 public class Program
 {
+
     public static void Main()
     {
         // Création de deux salariés pour tester
