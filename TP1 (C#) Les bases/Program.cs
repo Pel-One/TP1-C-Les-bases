@@ -30,11 +30,9 @@ public class Program
 
     public static void Main()
     {
-        // Création de deux salariés pour tester
         var salarie1 = new Salarié(1001, "Dupont", "Jean", 3000.00, 0.22);
         var salarie2 = new Salarié(1002, "Martin", "Marie", 4200.50, 0.22);
 
-        // Affichage des résultats
         Console.WriteLine("Test des objets Salarié :");
         Console.WriteLine($"1) {salarie1.Nom} {salarie1.Prenom} (Maricule {salarie1.Maricule}) - Salaire brut : {salarie1.Salaire:C} - Salaire net : {salarie1.CalculerSalaireNet():C}");
         Console.WriteLine($"2) {salarie2.Nom} {salarie2.Prenom} (Maricule {salarie2.Maricule}) - Salaire brut : {salarie2.Salaire:C} - Salaire net : {salarie2.CalculerSalaireNet():C}");
